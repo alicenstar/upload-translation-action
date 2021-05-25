@@ -1,26 +1,5 @@
 name: 'Translate Files'
 description: 'Upload en.json file and create a project'
-inputs:
-  SDL_CLIENT_ID:
-    description: 'Client ID'
-    required: false
-    default: ''
-  SDL_OPTIONS_ID:
-    description: 'Options ID'
-    required: false
-    default: ''
-  SDL_PASSWORD:
-    description: 'Password'
-    required: false
-    default: ''  
-  SDL_SECRET:
-    description: 'Secret'
-    required: false
-    default: ''  
-  SDL_USERNAME:
-    description: 'Username'
-    required: false
-    default: ''
 outputs:
   projectId:
     description: 'SDL project ID'
