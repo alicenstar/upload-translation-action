@@ -1,0 +1,29 @@
+name: 'Translate Files'
+description: 'Upload en.json file and create a project'
+inputs:
+  SDL_CLIENT_ID:
+    description: 'Client ID'
+    required: true
+    default: ''
+  SDL_OPTIONS_ID:
+    description: 'Options ID'
+    required: true
+    default: ''
+  SDL_PASSWORD:
+    description: 'Password'
+    required: true
+    default: ''  
+  SDL_SECRET:
+    description: 'Secret'
+    required: true
+    default: ''  
+  SDL_USERNAME:
+    description: 'Username'
+    required: true
+    default: ''
+outputs:
+  projectId:
+    description: 'SDL project ID'
+runs:
+  using: 'node12'
+  main: 'index.js'
