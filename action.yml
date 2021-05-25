@@ -3,23 +3,23 @@ description: 'Upload en.json file and create a project'
 inputs:
   SDL_CLIENT_ID:
     description: 'Client ID'
-    required: true
+    required: false
     default: ''
   SDL_OPTIONS_ID:
     description: 'Options ID'
-    required: true
+    required: false
     default: ''
   SDL_PASSWORD:
     description: 'Password'
-    required: true
+    required: false
     default: ''  
   SDL_SECRET:
     description: 'Secret'
-    required: true
+    required: false
     default: ''  
   SDL_USERNAME:
     description: 'Username'
-    required: true
+    required: false
     default: ''
 outputs:
   projectId:
