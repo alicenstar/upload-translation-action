@@ -1,3 +1,5 @@
+const fetch = require('node-fetch');
+
 const uploadFiles = async () => {
     // hit auth endpoint and get access token
     const auth = await fetch(`https://languagecloud.sdl.com/auth/token`, {
